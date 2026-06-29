@@ -10,7 +10,7 @@ export function Footer() {
 
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/KARAN0072177"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors hover:text-foreground"
@@ -19,7 +19,7 @@ export function Footer() {
             <Github className="h-4 w-4" />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/karan-vani-580704357/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors hover:text-foreground"
@@ -28,7 +28,7 @@ export function Footer() {
             <Linkedin className="h-4 w-4" />
           </a>
           <a
-            href="mailto:hello@yourdomain.com"
+            href="mailto:karavani2003@gmail.com"
             className="text-muted-foreground transition-colors hover:text-foreground"
             aria-label="Send email"
           >

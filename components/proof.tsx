@@ -35,11 +35,11 @@ export function Proof() {
             </p>
             <div className="flex flex-wrap gap-4">
               <div className="rounded-md border border-border bg-secondary/50 px-4 py-2">
-                <p className="text-lg font-bold text-foreground">200+</p>
+                <p className="text-lg font-bold text-foreground">799+</p>
                 <p className="text-xs text-muted-foreground">Contributions</p>
               </div>
               <div className="rounded-md border border-border bg-secondary/50 px-4 py-2">
-                <p className="text-lg font-bold text-foreground">10+</p>
+                <p className="text-lg font-bold text-foreground">20+</p>
                 <p className="text-xs text-muted-foreground">Repositories</p>
               </div>
               <div className="rounded-md border border-border bg-secondary/50 px-4 py-2">

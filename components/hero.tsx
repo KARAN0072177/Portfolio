@@ -49,7 +49,7 @@ export function Hero() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
             </span>
             <span className="text-xs font-medium text-muted-foreground">
-              Available for new projects
+              Available for new projects, internships and software engineering opportunities.
             </span>
           </div>
 
@@ -61,8 +61,8 @@ export function Hero() {
                 : "translate-y-6 opacity-0"
             }`}
           >
-            I build systems that
-            <span className="text-neon"> don&apos;t break.</span>
+            Building secure, scalable software for 
+            <span className="text-neon">the real world.</span>
           </h1>
 
           {/* Subtext */}
@@ -73,9 +73,7 @@ export function Hero() {
                 : "translate-y-6 opacity-0"
             }`}
           >
-            Full-Stack Developer specializing in authentication, system
-            architecture, and scalable APIs. I deliver production-ready
-            foundations for SaaS platforms and web applications.
+            I build modern web applications with a strong focus on authentication, real-time collaboration, cloud infrastructure, and developer experience.
           </p>
 
           {/* Buttons */}

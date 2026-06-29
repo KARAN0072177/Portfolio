@@ -17,7 +17,33 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "LMS Platform",
+    title: "NexSyncHub",
+    description:
+      "A multi-tenant workspace collaboration & SaaS platform featuring real-time team chat, interactive Kanban workflows, custom AI assistance, and extensive admin moderation controls.",
+    highlights: [
+      "Socket.IO WebSocket integration for real-time messaging and presence",
+      "In-house RAG engine with vector embeddings and similarity search",
+      "Role-based access control with multi-tenant workspace permissions",
+      "AWS Rekognition computer vision for automated content moderation",
+      "Redis rate limiting and Cloudflare Turnstile security integration",
+      "Stripe integration for recurring subscriptions and automated webhooks",
+    ],
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Socket.IO",
+      "Upstash Redis",
+      "AWS S3",
+      "Stripe",
+      "OpenAI",
+      "Cloudflare",
+    ],
+    liveUrl: "https://www.nexsynchub.com",
+    codeUrl: "https://github.com/KARAN0072177/NexSyncHub-prod",
+  },
+  {
+    title: "AssignFlowHub",
     description:
       "A full-featured learning management system handling course delivery, student progress tracking, and instructor dashboards with real-time notifications.",
     highlights: [
@@ -40,7 +66,7 @@ const projects: Project[] = [
     codeUrl: "https://github.com/KARAN0072177/assignflow-hub-prod",
   },
     {
-    title: "SaaS Application",
+    title: "ARTS-OF-IMAGINATION-EVER (AOIE)",
     description:
       "A multi-tenant SaaS platform with comprehensive user management, payment processing, and a full admin panel for operational oversight.",
     highlights: [
@@ -59,7 +85,7 @@ const projects: Project[] = [
       "Auth Providers",
       "Web Sockets",
     ],
-    liveUrl: "https://arts-of-imagination-ever-2-0.onrender.com",
+    liveUrl: "https://aoieworld.com",
     codeUrl: "https://github.com/KARAN0072177/ARTS-OF-IMAGINATION-EVER-2.0",
   },
 ];
@@ -82,7 +108,7 @@ export function Projects() {
           {projects.map((project, i) => (
             <div
               key={project.title}
-              className={`reveal ${i === 1 ? "reveal-delay-2" : ""} group overflow-hidden rounded-lg border border-border bg-card transition-all duration-300 hover:border-neon/30`}
+              className={`reveal ${i > 0 ? `reveal-delay-${Math.min(i, 4)}` : ""} group overflow-hidden rounded-lg border border-border bg-card transition-all duration-300 hover:border-neon/30`}
             >
               <div className="p-8">
                 <div className="flex flex-col gap-6 lg:flex-row lg:gap-12">
@@ -120,7 +146,7 @@ export function Projects() {
                             rel="noopener noreferrer"
                           >
                             <ExternalLink className="mr-1.5 h-3.5 w-3.5" />
-                            Live Demo
+                            Try it live
                           </a>
                         </Button>
                       )}

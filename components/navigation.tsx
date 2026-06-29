@@ -82,7 +82,7 @@ export function Navigation() {
           <span className="text-neon transition-opacity duration-300 group-hover:opacity-70">
             {"<"}
           </span>
-          {"dev"}
+          {"Karan Vani"}
           <span className="text-neon transition-opacity duration-300 group-hover:opacity-70">
             {" />"}
           </span>
